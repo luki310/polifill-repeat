@@ -1,4 +1,4 @@
-if(typeof String.prototype.repeater !== "function") {
+if( !("repeater" in String.prototype) ) {
 
     String.prototype.repeater = function(x) {
 
